@@ -8,13 +8,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-public class splitPdfs {
+public class SplitPdfs {
     // rename these to your local destination folder and your source pdf path
     public static final String DESTFOLDER = "/Users/jsalido/test/res/";
     public static final String RESOURCE = "/Users/jsalido/test/test2.pdf";
 
     public static void main(String[] args) throws IOException {
-        new splitPdfs().manipulatePdf(DESTFOLDER);
+        new SplitPdfs().manipulatePdf(DESTFOLDER);
     }
 
     public void manipulatePdf(final String destFolder) throws IOException {
